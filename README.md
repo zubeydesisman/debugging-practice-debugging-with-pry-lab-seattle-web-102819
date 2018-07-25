@@ -1,21 +1,11 @@
-# module-1-debugging-lab
-Debug the instructor's broken code. YOU CAN DO IT!
+# Debugging
 
+If you clone down this lab and run the tests, you'll notice something: everything's broken. Like, broken bad. The entire lab is so full of bugs that even the tests won't run!  And guess what?  It's on you to fix it!
 
+We've narrowed down the two biggest issues and put them into a folder called 'first_priority'.  Once you get the two files in there fixed, you should be able to run tests and start fixing the rest of the code.
 
-# TODO
+Keep in mind, this lab is about more than just finding and fixing the errors - it's about understanding how to look for what those errors are.  Don't just guess and test.
 
-method call with a space
-ex.. def something (args)
-      end
+And don't forget to use your best friend `binding.pry` to jump into your code and confirm your suspicions.
 
-
-mistake = and ==
-
-mistake .each and .map
-
-mistake + and +=
-
-Nil class -- Passed in values are nil -- need to drop a binding to verify why -- error is usually cannot .... for Nil class
-
-only have attr_reader in class and trying to reassign instance variable values
+  [An Intro to Ruby Debugging featuring Pry](https://medium.com/@TheDickWard/an-intro-to-ruby-debugging-featuring-pry-c931fde69069)
